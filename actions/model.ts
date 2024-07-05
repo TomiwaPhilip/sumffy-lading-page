@@ -15,7 +15,7 @@ export default async function connectToDB() {
 
     console.log("Connecting to MongoDB...");
     await mongoose.connect(MONGODB_URI, {
-      dbName: "Sumffy.ai",
+      dbName: "Sumffy-ai",
     });
 
     console.log("MongoDB connected successfully.");

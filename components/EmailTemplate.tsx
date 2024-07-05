@@ -6,34 +6,31 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = () => (
     <div>
         <h1>Congratulations! </h1>
         <p>
-            You have successfully secured your seat for the next cohort of Software
-            Development Mentorship Programme starting by April 15, 2024{" "}
-            <span className="font-bold">
-                Below are the things you need to do to prepare yourself:
-            </span>{" "}
+            You have successfully secured your seat among our first early users.
         </p>
-        <ol>
-            <li>Setup your dev tools (laptop and IDE) </li>
-            <li>
-                Join our discord <a href="https://dash.xperiencedtekie.pro"> here</a>.
-                This would be your official workspace
-            </li>
-            <li>
-                Share this email on your X (fomerly twitter) and tag us, also give us a
-                follow <a href="https://dash.xperiencedtekie.pro"> here</a>
-            </li>
-            <li>Reply this email telling us how happy you are to get started</li>
-        </ol>
 
         <p>
-            Once again, I congratulate you for starting this journey! Feel free to
-            reach out to us if you have any issues or queries!
+            Note that we will send you emails to be update you about the development and launch of Scumffy. 
         </p>
         <p>
-            <b>Xperienced Tekie</b>
+            <b>Tomiwa Philip</b>
         </p>
         <span>
             <em>With Love!</em>
         </span>
     </div>
 );
+
+interface EmailTemplateProps2 {
+    email: string;
+  }
+  
+  
+  export const EmailTemplate2: React.FC<Readonly<EmailTemplateProps2>> = ({
+    email,
+  }) => (
+    <div>
+      <h1>New Signup, Ahmed!</h1>
+      <h1 className='text-sm text-blue-500'>Another user with email {email} has successfully signed up for the early access!</h1>
+    </div>
+  );
