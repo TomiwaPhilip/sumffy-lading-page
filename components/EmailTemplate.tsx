@@ -10,7 +10,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = () => (
         </p>
 
         <p>
-            Note that we will send you emails to be update you about the development and launch of Scumffy. 
+            Note that we will send you emails to be update you about the development and launch of Sumffy. 
         </p>
         <p>
             <b>Tomiwa Philip</b>
@@ -30,7 +30,7 @@ interface EmailTemplateProps2 {
     email,
   }) => (
     <div>
-      <h1>New Signup, Ahmed!</h1>
+      <h1>New Signup, Tomiwa!</h1>
       <h1 className='text-sm text-blue-500'>Another user with email {email} has successfully signed up for the early access!</h1>
     </div>
   );
