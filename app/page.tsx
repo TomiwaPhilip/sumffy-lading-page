@@ -76,8 +76,8 @@ export default function Home() {
       <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
         <div className="text-center mx-auto">
           <h1 className='text-[32px] font-bold m-3'>Hooray! 🎉</h1>
-          <p className='text-[24px] font-medium m-3'>You're in!</p>
-          <p className='text-[24px] font-medium m-3'>Join our WhatsApp Community so that you don't miss any update!</p>
+          <p className='text-[24px] font-medium m-3'>You are in!</p>
+          <p className='text-[24px] font-medium m-3'>Join our WhatsApp Community so that you do not miss any update!</p>
           <Link href="https://chat.whatsapp.com/IjwXpAeullwIZvH1cewRKc">
             <button
               type="submit"
