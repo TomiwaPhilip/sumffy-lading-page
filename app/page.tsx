@@ -67,9 +67,11 @@ export default function Home() {
           <button
             type="submit"
             disabled={disable}
-            className="bg-gradient-to-r text-white p-2 rounded-lg font-bold text-[15px] transition"
+            className={`bg-gradient-to-r from-blue-500 to-blue-700 text-white p-2 rounded-lg font-bold text-[15px] transition ${
+              disable ? 'opacity-50 cursor-not-allowed' : ''
+            }`}
           >
-            Join Waitlist
+            {disable ? 'Joining...' : 'Join Waitlist'}
           </button>
         </form>
       </div>

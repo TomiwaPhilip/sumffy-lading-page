@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'transparent-black': 'rgba(2, 3, 16, 0.95)',
+        'transparent-black': 'rgba(2, 3, 16, 0.85)',
       },
     },
   },
